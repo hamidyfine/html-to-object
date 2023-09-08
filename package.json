@@ -1,0 +1,55 @@
+{
+    "name": "convert-html-to-object",
+    "version": "1.0.0",
+    "description": "Convert your HTML to an object",
+    "index": "src/main.ts",
+    "main": "./bin/index.js",
+    "bin": {
+        "hto": "./bin/index.js"
+    },
+    "files": [
+        "bin"
+    ],
+    "scripts": {
+        "build": "npx tsc",
+        "watch": "npx tsc -w",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hamidyfine/html-to-object"
+    },
+    "keywords": [
+        "boilerplate",
+        "typescript",
+        "cli",
+        "commander",
+        "inquirer"
+    ],
+    "author": "hamidyfine",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hamidyfine/html-to-object/issues"
+    },
+    "homepage": "https://github.com/hamidyfine/html-to-object#readme",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^11.0.0",
+        "inquirer": "^9.2.10"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.22.17",
+        "@babel/preset-env": "^7.22.15",
+        "@babel/preset-typescript": "^7.22.15",
+        "@types/inquirer": "^9.0.3",
+        "@types/jest": "^29.5.4",
+        "@typescript-eslint/eslint-plugin": "^6.6.0",
+        "@typescript-eslint/parser": "^6.6.0",
+        "babel-jest": "^29.6.4",
+        "eslint": "^8.49.0",
+        "eslint-config-alloy": "^5.1.2",
+        "jest": "^29.6.4",
+        "ts-jest": "^29.1.1",
+        "typescript": "^5.2.2"
+    }
+}
